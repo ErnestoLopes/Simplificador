@@ -1,0 +1,71 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0;
+    flex-direction: column;
+}
+.content{
+    display: flex;
+    padding: 20px;
+    border-radius: 10px;
+}
+.lado2{
+    background: #019CDE;
+    width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    color: #000000;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+}
+.lado2 h2{
+    color: #ffffff;
+}
+.form-group{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+.campo{
+    width: 250px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    text-decoration: none;
+    font-size: 18px;
+}
+.btn{
+    background: #ffffff;
+    color: #019CDE;
+    border: none;
+    width: 250px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+@media (max-width: 768px) {
+    .content {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .lado1 img{
+        width: 100%;
+        height: auto;
+    }
+    .lado2 {
+        width: 80%;
+        margin-top: 20px;
+    }
+}
